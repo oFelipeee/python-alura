@@ -1,0 +1,11 @@
+projetos = ["website", "jogo", "análise de dados", None, "aplicativo móvel"]
+
+print("--------------------------------------------------")
+for projeto in projetos:
+    if projeto is None:
+        print("Projeto ausente")
+    else:
+        print(projeto)
+    print("--------------------------------------------------")
+ 
+        
